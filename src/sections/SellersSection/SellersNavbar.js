@@ -6,7 +6,7 @@ export default function SellersNavbar() {
         <div>
             <nav>
                 <div className='navbar flex justify-between items-center py-6 max-[899px]:bg-[#ededed] px-4 md:px-[10%]'>
-                    <img src='./BuyersNavbarlogo.svg' className='max-[500px]:w-[40%]' />
+                    <img src='./BuyersNavbarLogo.svg' className='max-[500px]:w-[40%]' />
                     <ul className='hidden min-[900px]:flex gap-3 list-none'>
                     <li><Link to='/'>Buy</Link></li>
                    <li> <Link to='/sell'>Sell</Link></li>
